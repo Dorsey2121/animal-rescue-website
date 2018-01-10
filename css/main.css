@@ -101,11 +101,6 @@ nav a:focus {
 .sans, h1, h2, h3, .btn, .h-logo, nav a, legend {
   font-family: 'Open Sans', sans-serif;
 }
-::selection {
-    background-color: #03446e;
-    color: #fff;
-    text-shadow: none;
-}
 
 h1, h2, legend {
   color: #fdd100;
