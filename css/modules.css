@@ -1014,7 +1014,7 @@ select {
 
 /* stylelint-disable no-descending-specificity */
 
- button,
+/* button,
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -1039,7 +1039,7 @@ button::-moz-focus-inner {
 }
 
 /* stylelint-enable */
-
+/*
 button:focus,
 button:hover,
 .btn:focus,
@@ -1085,6 +1085,8 @@ button[disabled] {
 }
 */
 
+
+
 button,
 .btn {
   cursor: pointer;
@@ -1096,7 +1098,7 @@ button,
   -moz-appearance: none;
   appearance: none;
   border-radius: 10000px;
-  font-weight: bold;
+  font-weight: 300;
   background-color: transparent;
   border: 3px solid #fdd100;
   color: #fff;
