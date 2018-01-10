@@ -50,6 +50,9 @@
         <div class="wrapper island">
           <h1 class="push-0">Adopt</h1>
           <p class="giga sans">Adopt a Parrot Today!</p>
+          <div class="btn-container">
+            <a class="btn btn-ghost giga" href="#">Adopt Now</a>
+          </div>
         </div>
       </div>
     </header>
@@ -100,16 +103,16 @@
             <input id="adopt-postal-code" name="adopt-postal-code">
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-            <label class="push-1-2" for="adopt-primary-phone-type">Please Indicate Your Type of Residence</label>
-            <select id="adopt-primary-phone-type" name="adopt-primary-phone-type" required>
+            <label class="push-1-2" for="residence">Please Indicate Your Type of Residence</label>
+            <select id="residence" name="residence" required>
               <option>Detached Home</option>
               <option>Duplex</option>
               <option>Apartment</option>
             </select>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-            <label class="push-1-2" for="adopt-primary-phone-type">Do You Own or Rent Your Home</label>
-            <select id="rent-your-home" name="rent-your-hom" required>
+            <label class="push-1-2" for="rent-your-home">Do You Own or Rent Your Home</label>
+            <select id="rent-your-home" name="rent-your-home" required>
               <option>Own</option>
               <option>Rent</option>
             </select>
@@ -152,7 +155,7 @@
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
             <label class="push-1-2" for="">Can we call you at work?</label>
-            <select id="adopt-alt-phone-type" name="adopt-alt-phone-type" required>
+            <select id="work" name="work" required>
               <option>&nbsp;</option>
               <option>Yes</option>
               <option>No</option>
@@ -230,7 +233,7 @@
             <label class="push-1-2" for="quality">Please list the things you hope to achieve with the adoption of this bird and what you will do to ensure the best quality of life possible.</label>
             <textarea id="aquality" name="quality"></textarea>
           </div>
-        </div>
+        </fieldset>
         <fieldset class="disclaimers pad-top push-0">
           <legend class="tera gutter-1-2"></legend>
           <div class="grid">
@@ -241,8 +244,9 @@
                 <option>I understand and accept.</option>
               </select>
             </div>
-          </fieldset>
-        </form>
+          </div>
+        </fieldset>
+      </form>
 
 
 
