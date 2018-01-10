@@ -58,8 +58,6 @@ nav a {
   color: #fff;
   text-decoration: none;
   padding: .25rem 1.5rem .2rem;
-  font-size: 1.5625rem;
-  line-height: 2.275rem;
   border-radius: 10000px;
   border: none;
   transition:
@@ -103,7 +101,6 @@ nav a:focus {
 .sans, h1, h2, h3, .btn, .h-logo, nav a, legend {
   font-family: 'Open Sans', sans-serif;
 }
-
 ::selection {
     background-color: #03446e;
     color: #fff;
@@ -244,7 +241,6 @@ input:not([type="radio"]) {
   background-size: cover;
   border: 3px solid rgba(0, 59, 93, 0.5);
   border-radius: 50%;
-  line-height: inherit;
 }
 
 [type="radio"]:checked + label::before {
@@ -404,8 +400,6 @@ fieldset {
 
   nav a {
     padding: .25rem 1.5rem .2rem;
-    font-size: 1.333rem;
-    line-height: 1.75rem;
     border-radius: 10000px;
     border: none;
   }
