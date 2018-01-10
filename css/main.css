@@ -278,27 +278,27 @@ fieldset {
   border: none;
 }
 
-.macaw:checked ~ .dog-list .conure-link,
-.macaw:checked ~ .dog-list .amazon-link,
-.macaw:checked ~ .dog-list .cockatoo-link {
+.macaw:checked ~ .parrot-list .conure-link,
+.macaw:checked ~ .parrot-list .amazon-link,
+.macaw:checked ~ .parrot-list .cockatoo-link {
   display: none;
 }
 
-.conure:checked ~ .dog-list .macaw-link,
-.conure:checked ~ .dog-list .amazon-link,
-.conure:checked ~ .dog-list .cockatoo-link {
+.conure:checked ~ .parrot-list .macaw-link,
+.conure:checked ~ .parrot-list .amazon-link,
+.conure:checked ~ .parrot-list .cockatoo-link {
   display: none;
 }
 
-.cockatoo:checked ~ .dog-list .conure-link,
-.cockatoo:checked ~ .dog-list .amazon-link,
-.cockatoo:checked ~ .dog-list .macaw-link {
+.cockatoo:checked ~ .parrot-list .conure-link,
+.cockatoo:checked ~ .parrot-list .amazon-link,
+.cockatoo:checked ~ .parrot-list .macaw-link {
   display: none;
 }
 
-.amazon:checked ~ .dog-list .conure-link,
-.amazon:checked ~ .dog-list .macaw-link,
-.amazon:checked ~ .dog-list .cockatoo-link {
+.amazon:checked ~ .parrot-list .conure-link,
+.amazon:checked ~ .parrot-list .macaw-link,
+.amazon:checked ~ .parrot-list .cockatoo-link {
   display: none;
 }
 
