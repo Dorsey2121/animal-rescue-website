@@ -1085,6 +1085,8 @@ button[disabled] {
 }
 */
 
+
+
 button,
 .btn {
   cursor: pointer;
@@ -1095,10 +1097,10 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: linear-gradient(to right, #12ccb6, #12ccd2, #D19DD1);
   border-radius: 10000px;
-  font-weight: 300;
-  border: none;
+  font-weight: bold;
+  background-color: transparent;
+  border: 3px solid #fdd100;
   color: #fff;
 
   text-decoration: none;
@@ -1109,9 +1111,10 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  background-color: #D19DD1;
+  background-color: #fdd100;
   background-image: none;
-  color: #fff;
+  color: #03446e;
+  font-weight: bold;
 }
 
 button[disabled] {
@@ -1119,9 +1122,9 @@ button[disabled] {
 }
 
 .btn-light, .btn--light {
-  background-color: #12ccd2;
+  background-color: #03446e;
   background-image: none;
-  border-color: #12ccd2;
+  border-color: #03446e;
   color: #fff;
 }
 
@@ -1129,8 +1132,8 @@ button[disabled] {
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #D19DD1;
-  border-color: #D19DD1;
+  background-color: #fdd100;
+  border-color: #fdd100;
   color: #fff;
 }
 
@@ -1138,17 +1141,17 @@ button[disabled] {
 .btn--ghost {
   background-color: transparent;
   background-image: none;
-  border: 3px solid #D19DD1;
-  color: #D19DD1;
+  border: 3px solid #fdd100;
+  color: #fdd100;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #D19DD1;
+  background-color: #fdd100;
   background-image: none;
-  border: 3px solid #D19DD1;
+  border: 3px solid #fdd100;
   color: #fff;
 }
 
@@ -1374,5 +1377,4 @@ a:focus, [tabindex="0"]:focus {
     display: table-header-group;
   }
 
-  /* End HTML5 Boilerplate code */
 }
